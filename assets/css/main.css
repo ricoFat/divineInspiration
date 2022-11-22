@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    background-color: black;
+    
+    
+}
+
+header img {
+    max-width: 100%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+
+
+nav{
+    display: flex;
+    gap: 20px;
+    flex-direction:row;
+    flex-grow: 2;
+
+}
