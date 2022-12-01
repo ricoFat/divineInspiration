@@ -67,7 +67,7 @@ body > nav
     /*background-color: black;*/ 
     /* color: white; */
     /*font-size: 18px;*/
-    /* justify-content: center; *
+    /* justify-content: center; */
 } 
 
 body > nav img{
@@ -76,7 +76,7 @@ body > nav img{
 }
 
 body >nav  {
-    color: #534268;
+    color: var(--color2);
 }
 
 body>nav a{
