@@ -9,23 +9,31 @@
 </head>
 <body>
 
-    <header>
-        <img src="assets/img/logoDivineInspiration.jpeg" alt="logo">
-
-        <nav class="navigation">
-            <a href="#">Acceuil</a>
-            <a href="#">Services</a>
-            <a href="#">Portofolio</a>   
-            <a href="#">Contact</a>      
-            <a href="#">À propos</a>
+        <nav role="menu">
+            <div class="navigation">
+                <a class="navigation-logo" href="index.html">
+                    <img src="assets/img/logoDivineInspiration.jpeg" alt="logo">
+                </a>
+                <a href="index.html">Accueil</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Services</button>
+                    
+                    <div class="dropdown-content wrapper_flex">
+                        <a href="#" role="menuitem">1</a>
+                        <a href="#" role="menuitem">2</a>
+                        <a href="#" role="menuitem">3</a>
+                    </div>
+                </div>     
+                <a href="#">Portofolio</a>   
+                <a href="#">Contact</a>      
+                <a href="#">À propos</a>
+              <!--   <form class="navigation-form" action="get">
+                    <input type="search" name="recherche" placeholder="rechercher">
+                </form> -->
+            </div> 
         </nav>
-
-        <form class="navigation-form" action="get">
-            <input type="search" name="recherche" placeholder="rechercher">
-        </form>
-
-
-    </header>
-    
+        <footer>
+            <p>&copy; Tous droits réservés</p>
+        </footer>
 </body>
 </html>
