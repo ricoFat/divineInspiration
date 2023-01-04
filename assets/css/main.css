@@ -112,7 +112,7 @@ body>nav a, .dropdown .dropbtn {
 .dropdown-content{
     position: absolute;
     min-width: 240px;
-	top: 100%;
+	  top: 100%;
     box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.5);
     z-index: 1;
 
@@ -121,7 +121,6 @@ body>nav a, .dropdown .dropbtn {
 .dropdown .dropbtn {
     border: none;
     outline: none;
-
     font-family: inherit;
     font-size: inherit;
 }
@@ -199,7 +198,7 @@ nav
     color: black;
   }
 
-  .navigation .navigation-logo img {
+   .navigation-logo img {
     height: 70px;
     border-radius: 50%;
   }
@@ -228,7 +227,7 @@ nav
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: fit-content;
+    min-width: 240px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
@@ -246,6 +245,8 @@ nav
 
   .navigation .dropdown:hover .dropdown-content {
     display: block;
+    background-color: #ac1c1c;
+
   }
 
   .navigation-logo:hov{
