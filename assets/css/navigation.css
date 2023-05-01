@@ -20,7 +20,7 @@
    .navigation .logo
   {
     font-size: 2rem;
-    color: var(--gray);
+    color: var(--primary-black);
   }
 
   .navigation .logo span
