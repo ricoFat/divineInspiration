@@ -1,0 +1,50 @@
+/* Navigation */
+  
+  header
+  {
+    padding: 0 2rem;
+  }
+
+
+/* Navigation */
+  .navigation
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+   .navigation .logo
+  {
+    font-size: 2rem;
+    color: var(--gray);
+  }
+
+  .navigation .logo span
+  {
+    color: var(--primary-color);
+    font-weight: bold;
+  } 
+
+/*   .logo img
+  {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+  } */
+
+  .navigation .lien
+  {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .navigation .lien a:hover
+  {
+    color: var(--primary-color);
+  } 

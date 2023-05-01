@@ -1,0 +1,56 @@
+/******************************/
+/* Styles généraux de la page */
+/******************************/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+body, html
+{
+    height: 100%;
+}
+
+body
+{
+  background-color: #fff;
+  color: var(--primary-black);
+  overflow-x: hidden;
+}
+
+img
+{
+    max-width:100% ;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+li
+{
+	list-style: none;
+}
+
+section .container
+{
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gauche,
+.droite
+{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+}
