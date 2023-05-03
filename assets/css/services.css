@@ -1,0 +1,85 @@
+.services
+{
+    padding-bottom: 100px;
+    background-color: #1c1819;
+
+}
+
+.services .img_container
+{
+    position: relative;
+    height: 700px;
+}
+
+.services img
+{
+    position: absolute;
+     width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: top;
+}
+
+.services .container
+{
+    position: relative;
+    margin-top: -200px;
+    color: #fff;
+    z-index: 1;
+}
+
+.services .liste
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.services .carte
+{
+    padding: 30px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.services .carte .titre
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.services .carte .numero
+{
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.services .carte p
+{
+    margin: 1rem 0 2rem;
+    color: #b3b3b3;
+    font-style: italic;
+}
+
+.services .carte a
+{
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+}
+
+.services .carte a:hover
+{
+    color: #b3b3b3;
+}
+
+
+
