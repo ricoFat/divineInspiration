@@ -133,8 +133,8 @@
 
 .contact .info .lien li
 {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #fff;
     border-radius: 50px;
     display: flex;
@@ -150,6 +150,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: scale 1s ease;
+}
+
+.contact .info .lien a:hover
+{
+    scale: 1.5;
+    color: var(--primary-black);
 }
 
 /*** Footer **/
